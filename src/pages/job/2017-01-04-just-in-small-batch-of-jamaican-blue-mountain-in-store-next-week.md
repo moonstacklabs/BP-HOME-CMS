@@ -1,5 +1,5 @@
 ---
-templateKey: blog-post
+templateKey: job-post
 title: "Job #3"
 date: 2022-01-18T17:21:38.073Z
 description: Case worker manager
