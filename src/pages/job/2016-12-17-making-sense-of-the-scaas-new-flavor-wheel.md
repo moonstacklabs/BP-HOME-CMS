@@ -1,5 +1,5 @@
 ---
-templateKey: blog-post
+templateKey: job-post
 title: Job Listing 1
 date: 2016-12-17T15:04:10.000Z
 description: HR

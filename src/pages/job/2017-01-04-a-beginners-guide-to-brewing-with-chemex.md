@@ -1,5 +1,5 @@
 ---
-templateKey: blog-post
+templateKey: job-post
 title: "Job listing #2"
 date: 2017-01-04T15:04:10.000Z
 description: case worker
