@@ -11,8 +11,8 @@ It follows the [JAMstack architecture](https://jamstack.org) by using Git as a s
 ## Features
 
 - A simple landing page with blog functionality built with Netlify CMS
-- Editable Pages: Landing, About, Product, Blog-Collection and Contact page with Netlify Form support
-- Create Blog posts from Netlify CMS
+- Editable Pages: Landing, About, Product, Job-Collection and Contact page with Netlify Form support
+- Create Job posts from Netlify CMS
 - Tags: Separate page for posts under each tag
 - Basic directory organization
 - Uses Bulma for styling, but size is reduced by `gatsy-plugin-purgecss`
@@ -68,7 +68,7 @@ import CMS from "netlify-cms-app";
 // import cloudinary from 'netlify-cms-media-library-cloudinary'
 
 import AboutPagePreview from "./preview-templates/AboutPagePreview";
-import BlogPostPreview from "./preview-templates/BlogPostPreview";
+import JobPostPreview from "./preview-templates/JobPostPreview";
 import ProductPagePreview from "./preview-templates/ProductPagePreview";
 import IndexPagePreview from "./preview-templates/IndexPagePreview";
 
@@ -78,7 +78,7 @@ import IndexPagePreview from "./preview-templates/IndexPagePreview";
 CMS.registerPreviewTemplate("index", IndexPagePreview);
 CMS.registerPreviewTemplate("about", AboutPagePreview);
 CMS.registerPreviewTemplate("products", ProductPagePreview);
-CMS.registerPreviewTemplate("blog", BlogPostPreview);
+CMS.registerPreviewTemplate("job", JobPostPreview);
 ```
 
 Note: Don't forget to also remove them from `package.json` and `yarn.lock` / `package-lock.json` using `yarn` or `npm`. During the build netlify-cms-app will bundle the media libraries as well, having them removed will save you build time.
