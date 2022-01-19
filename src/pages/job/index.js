@@ -22,7 +22,7 @@ export default class JobIndexPage extends React.Component {
               padding: "1rem",
             }}
           >
-            Latest Stories
+            Careers
           </h1>
         </div>
         <section className='section'>
